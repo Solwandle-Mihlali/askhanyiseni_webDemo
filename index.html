@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Askhanyiseni</title>
+</head>
+<body>
+
+    <nav>
+        <header id="logo">
+        </header>
+        <ul>
+            <li><a href="#homePage">HOME</a></li>
+            <li><a href="#aboutUsPage">About Us</a></li>
+            <li><a href="#contactSection">GET INVOLVED</a></li>
+            <li><a href="#gallery">GALLERY</a></li>
+            <li><a href="#contactSection">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <section id="homePage">
+        <p>Beach CleanUps</p>
+        <h1>Help us keep the enviroment clean ,<br>by removing all waste</h1>
+
+        <button type="button">Get Involved</button>
+
+    </section>
+
+    <section id="aboutUsPage">
+    <div class="left">
+        <h2>The Asikhanyise Foundation is a Non-Profit Organization with a difference, 'Asikhanyise' directly translated means, 'Let us light the way' and that is what we plan to do. Our logo represents what we stand for which is to be the light in our community and the City. We believe that we have one planet and it is our job to protect and preserve it, we take pride in our beautiful city Durban and its beautiful beaches that is why we curate monthly beach clean ups with the assistance of our municipality and community. All plastic waste collected is processed by us an our local arts and crafts team that turns waste into beautiful furniture and jewellery. Every summer to raise funds for young adults the Asikhanyise Foundation curates a Beach Festival called 'Beachday DBN', a ticketed event of live music, food stalls and fun in the sun. Asikhanyise Foundation is for the Youth by the Youth!</h2>
+    </div>
+    <div class="right"></div>
+    </section>
+
+    <section id="gallery">
+        <div class="carousel">
+            <ul class="slides">
+              <input type="radio" name="radio-buttons" id="img-1" checked />
+              <li class="slide-container">
+                <div class="slide-image">
+                  <img src="imgs/landingBG.jpg">
+                </div>
+                <div class="carousel-controls">
+                  <label for="img-3" class="prev-slide">
+                    <span>&lsaquo;</span>
+                  </label>
+                  <label for="img-2" class="next-slide">
+                    <span>&rsaquo;</span>
+                  </label>
+                </div>
+              </li>
+              <input type="radio" name="radio-buttons" id="img-2" />
+              <li class="slide-container">
+                <div class="slide-image">
+                  <img src="imgs/cleanup.jpg">
+                </div>
+                <div class="carousel-controls">
+                  <label for="img-1" class="prev-slide">
+                    <span>&lsaquo;</span>
+                  </label>
+                  <label for="img-3" class="next-slide">
+                    <span>&rsaquo;</span>
+                  </label>
+                </div>
+              </li>
+              <input type="radio" name="radio-buttons" id="img-3" />
+              <li class="slide-container">
+                <div class="slide-image">
+                  <img src="imgs/boat.jpg">
+                </div>
+                <div class="carousel-controls">
+                  <label for="img-2" class="prev-slide">
+                    <span>&lsaquo;</span>
+                  </label>
+                  <label for="img-1" class="next-slide">
+                    <span>&rsaquo;</span>
+                  </label>
+                </div>
+              </li>
+              <div class="carousel-dots">
+                <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+                <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+                <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+              </div>
+            </ul>
+          </div>
+   </section>
+   
+
+   <section id="contactSection">
+    <form id="contact" action="" method="post">
+        <h4>Contact us for custom quote</h4>
+        <fieldset>
+          <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Your Email Address" type="email" tabindex="2" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
+        </fieldset>
+        <fieldset>
+          <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+        </fieldset>
+        <fieldset>
+          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+        </fieldset>
+        <p class="copyright">Designed by <a href="#" target="_blank" title="Colorlib">Bongani Masela</a></p>
+      </form>
+      
+   </section>
+
+   <section class="footer">
+    <P>123 Pretoria Ave, Pretoria </P>
+    <p>Tel:0686931629 | Email:info@Asikhanyiseni.org</p>
+    <p>Copyright @ 2022 Askhanyiseni Foundation</p> 
+  </section>
+
+    
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</body>
+</html>
